@@ -21,6 +21,7 @@ MAINTAINER Dockerfiles
 RUN apt-get update && \
     apt-get upgrade -y && \ 	
     apt-get install -y \
+	libjpeg8-dev \
 	git \
 	python3 \
 	python3-dev \

@@ -82,9 +82,9 @@ DATABASES = {
         'NAME': 'float1',
         'USER': os.getenv('DB_USER', 'root'),
         'PASSWORD': os.getenv('DB_PASS', 'pass'),
-        'HOST': '172.18.0.1',   # Or an IP Address that your DB is hosted on
+        # 'HOST': '172.18.0.1',   # Or an IP Address that your DB is hosted on
         # 'HOST': '192.168.1.29',   # Or an IP Address that your DB is hosted on
-        # 'HOST': os.getenv('DB_HOST', '192.168.1.12'),
+        'HOST': os.getenv('DB_HOST', '192.168.1.12'),
         'PORT': '3306',
     }
 }
