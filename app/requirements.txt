@@ -1,0 +1,7 @@
+django==2.0.1
+mysqlclient
+djangorestframework
+image
+qrcode
+
+
